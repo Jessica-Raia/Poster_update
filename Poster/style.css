@@ -1,0 +1,74 @@
+@font-face{
+    font-family: spaceranger;
+    src: url(Src/spacerangerleft.ttf);
+}
+
+@font-face{
+    font-family: nasalization;
+    src: url(Src/Nasalization\ Rg.otf);
+}
+
+h1{
+    font-family: spaceranger;
+    font-size: 125px;
+    text-align: center;
+}
+
+h2{
+font-size: 50px;
+font-family: nasalization;
+text-align: center;
+}
+
+h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+body{
+    background-color: darkorange;
+}
+
+p{
+    font-size: 25px;
+    border: 10px;
+    border-color: #4287f5;
+    border-style: outset;
+    margin-right: 650px;
+    box-shadow: 10px 10px 8px 10px #090909;
+    margin-left: 50px;
+    font-family: nasalization;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    color: darkgreen;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    margin-right: 75px;
+    color: darkgreen;
+    margin-top: 300px;
+}
+
+a:hover{
+    color: chartreuse;
+    background-color: deepskyblue;
+}
+
+img{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    margin-right: 75px;
+}
+
+img:hover{
+    filter: drop-shadow(16px 16px 20px rgb(223, 243, 131));
+    cursor: move;
+}
+
